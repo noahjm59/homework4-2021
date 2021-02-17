@@ -81,8 +81,8 @@ td{
   text-align: center;
   text-transform: uppercase;
   background-color: #7e0820;
-  top: 50%;
-  bottom: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 /*Req 6c*/
 .rowhead{
@@ -105,7 +105,7 @@ tr:nth-child(odd) {
 }
 /*Req 6f*/
 tbody tr:hover {
-  background-color: rgba(126, 8, 31, .25);
+  background-color: rgba(126, 8, 32, .25);
 }
 
 /*Req 7, COME BACK*/
