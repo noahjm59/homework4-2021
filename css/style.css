@@ -81,6 +81,8 @@ td{
   text-align: center;
   text-transform: uppercase;
   background-color: #7e0820;
+  top: 50%;
+  bottom: 50%;
 }
 /*Req 6c*/
 .rowhead{
@@ -141,5 +143,6 @@ footer{
   color: #FFFFFF;
   position: fixed;
   bottom: 0;
+  left: 0;
 }
 
