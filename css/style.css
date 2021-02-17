@@ -31,7 +31,7 @@ body{
   background-size: cover ;
   background-position: center;
   font-family: 'Andika', sans-serif;
-  background-image: url('/images/pigeon-background.JPEG');
+  background-image: url('../images/pigeon-background.JPEG');
   background-repeat: no-repeat;
   background-color: #DDDDDD;
   /*Req 1*/
@@ -52,14 +52,14 @@ p{
 
 a{
   font-size: 16px;
-  color: #C12258;
+  color: #B21F50;
   text-decoration-style: wavy;
-  /*Req 4*/
+  /*Req 4 --> CHANGE COLOR HERE*/
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
-*{
+*:focus{
   border-style: dashed;
   border-color: #417243;
 }
@@ -96,7 +96,7 @@ tr:nth-child(odd) {
   background-color: transparent;
 }
 /*Req 6f*/
-tr:hover {
+tbody tr:hover {
   background-color: rgba(126, 8, 31, .25);
 }
 
@@ -105,6 +105,7 @@ table{
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 thead tr:first-child th:first-child{}
