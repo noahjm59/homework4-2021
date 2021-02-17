@@ -89,11 +89,11 @@ td{
 
 /*Req 6d*/
 tr:nth-child(even) {
-  background-color: transparent;
+  background-color: #D1D1D1;
 }
 /*Req 6e*/
 tr:nth-child(odd) {
-  background-color: #D1D1D1;
+  background-color: transparent;
 }
 /*Req 6f*/
 tr:hover {
