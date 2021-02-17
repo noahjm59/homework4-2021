@@ -69,6 +69,7 @@ td{
   text-align: center;
   border-top-color: black;
   border-top-width: 2px;
+  border-top-style: solid;
   padding: 10px;
 }
 
@@ -83,8 +84,13 @@ td{
 }
 /*Req 6c*/
 .rowhead{
-  border-width: 2px;
-  border-color: black;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-right-color: black;
+
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: black;
 }
 
 /*Req 6d*/
@@ -108,8 +114,21 @@ table{
     border-radius: 10px;
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
 
+thead tr:last-child th:last-child{
+  border-top-right-radius: 10px;
+}
+
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 10px;
+}
+
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
 /*Add selectors and rules here*/
 
 
