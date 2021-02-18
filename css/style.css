@@ -81,8 +81,7 @@ td{
   text-align: center;
   text-transform: uppercase;
   background-color: #7e0820;
-  margin-top: auto;
-  margin-bottom: auto;
+  vertical-align: middle;
 }
 /*Req 6c*/
 .rowhead{
